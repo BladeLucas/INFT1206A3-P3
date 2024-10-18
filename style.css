@@ -79,5 +79,46 @@
     text-indent: 20px;
   }
 
+  a:link, a:visited, a:hover, a:focus {
+    color: #a66;
+  }
+
+  a:hover, a:focus {
+    text-decoration-line: none;
+  }
+
+  a:focus {
+    outline: none;
+    border: none;
+  }
+
+  a:active {
+    color: rgb(167, 52, 52);
+  }
+
+  a[href^="http"]::after {
+    content: "";
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.25em;
+
+    background-size: 100%;
+    background-image: url("external-link-52.png");
+  }
+
+  nav {
+    ul {
+        list-style: none;
+        li {
+            padding: 20px;
+            outline: 3px solid #a66;
+            margin-bottom: 15px;
+        }
+    }
+  }
+
+
+
   
   
