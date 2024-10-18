@@ -55,7 +55,29 @@
   
   /* WRITE YOUR CODE BELOW HERE */
 
-  title, h1, h2 {
-    font-family: 'myFont2', 'montserrat-regular-webfont', sans-serif;
+  html{
+    font-size: 10px;
   }
+
+  h1, h2 {
+    font-family: 'myFont2', 'montserrat-regular-webfont', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 4px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  body {
+    line-height: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+  }
+
+  p {
+    text-indent: 20px;
+  }
+
+  
   
